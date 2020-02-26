@@ -1,63 +1,16 @@
-/****************************************************************************
- * boards/arm/stm32/stm32f103-minimum/include/board.h
- *
- *   Copyright (C) 2016 Gregory Nutt. All rights reserved.
- *   Authors: Gregory Nutt <gnutt@nuttx.org>
- *            Laurent Latil <laurent@latil.nom.fr>
- *
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that the following conditions
- * are met:
- *
- * 1. Redistributions of source code must retain the above copyright
- *    notice, this list of conditions and the following disclaimer.
- * 2. Redistributions in binary form must reproduce the above copyright
- *    notice, this list of conditions and the following disclaimer in
- *    the documentation and/or other materials provided with the
- *    distribution.
- * 3. Neither the name NuttX nor the names of its contributors may be
- *    used to endorse or promote products derived from this software
- *    without specific prior written permission.
- *
- * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
- * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
- * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
- * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
- * COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
- * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
- * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
- * OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
- * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
- * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
- * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
- * POSSIBILITY OF SUCH DAMAGE.
- *
- ****************************************************************************/
-
 #ifndef __BOARDS_ARM_STM32_KORR_TEST_SIGNAL_BOARD_INCLUDE_BOARD_H
 #define __BOARDS_ARM_STM32_KORR_TEST_SIGNAL_BOARD_INCLUDE_BOARD_H
 
-/****************************************************************************
- * Included Files
- ****************************************************************************/
-
 #include <nuttx/config.h>
-#ifndef __ASSEMBLY__
-#  include <stdint.h>
-#endif
+#include <stdint.h>
 
-/****************************************************************************
- * Pre-processor Definitions
- ****************************************************************************/
-
-/* Clocking *************************************************************************/
-
+/* Clocking */
 /* On-board crystal frequency is 8MHz (HSE) */
-
+static constexpr uint64_t STM32_BOARD_XTAL = 8000000ul;
 #define STM32_BOARD_XTAL        8000000ul
 
 /* PLL source is HSE/1, PLL multiplier is 9: PLL frequency is 8MHz (XTAL) x 9 = 72MHz */
-
+static constexpr uint32_t STM32_CFGR_PLLSRC = RCC_CFGR_PLLSRC;
 #define STM32_CFGR_PLLSRC       RCC_CFGR_PLLSRC
 #define STM32_CFGR_PLLXTPRE     0
 #define STM32_CFGR_PLLMUL       RCC_CFGR_PLLMUL_CLKx9
@@ -148,50 +101,18 @@
 
 /* BUTTON definitions ***************************************************************/
 
-#define NUM_BUTTONS       2
-
-#define BUTTON_USER1      0
-#define BUTTON_USER2      1
-#define BUTTON_USER1_BIT  (1 << BUTTON_USER1)
-#define BUTTON_USER2_BIT  (1 << BUTTON_USER2)
+enum user_buttons_e {
+  BUTTON_USER1 = 0,
+  BUTTON_USER2 = 1,
+  BUTTON_USER3 = 2,
+  NUM_BUTTONS = 3,
+  BUTTON_USER1_BIT = (1 << BUTTON_USER1),
+  BUTTON_USER2_BIT = (1 << BUTTON_USER2),
+  BUTTON_USER3_BIT = (1 << BUTTON_USER3)
+};
 
 /* LED definitions ******************************************************************/
 
-/* Define how many LEDs this board has (needed by userleds) */
-
-#define BOARD_NLEDS       1
-
-/* The board has only one controllable LED */
-
-#define LED_STARTED       0  /* No LEDs */
-#define LED_HEAPALLOCATE  1  /* LED1 on */
-#define LED_IRQSENABLED   2  /* LED2 on */
-#define LED_STACKCREATED  3  /* LED1 on */
-#define LED_INIRQ         4  /* LED1 off */
-#define LED_SIGNAL        5  /* LED2 on */
-#define LED_ASSERTION     6  /* LED1 + LED2 */
-#define LED_PANIC         7  /* LED1 / LED2 blinking */
-
-/* PWM
- *
- * The STM32F103-Minimum has no real on-board PWM devices, but the board can
- * be configured to output a pulse train using TIM3 CH3 on PB0.
- *
- * Note: we don't need redefine GPIO_TIM3_CH3OUT because PB0 is not remap pin.
- */
-
-/* RGB LED
- *
- * R = TIM1 CH1 on PA8 | G = TIM2 CH2 on PA1 | B = TIM4 CH4 on PB9
- *
- * Note: Pin boards: GPIO_TIM1_CH1OUT ; GPIO_TIM2_CH2OUT ; GPIO_TIM4_CH4OUT
- */
-
-#define RGBLED_RPWMTIMER   1
-#define RGBLED_RPWMCHANNEL 1
-#define RGBLED_GPWMTIMER   2
-#define RGBLED_GPWMCHANNEL 2
-#define RGBLED_BPWMTIMER   4
-#define RGBLED_BPWMCHANNEL 4
+enum user_leds_e { USER_LED0 = 0, USER_LED1 = 1, USER_LED2 = 2, USER_LED3 = 3, BOARD_NLEDS = 4 };
 
 #endif /* __BOARDS_ARM_STM32_KORR_TEST_SIGNAL_BOARD_INCLUDE_BOARD_H */
