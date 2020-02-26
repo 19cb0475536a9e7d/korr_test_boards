@@ -1,6 +1,1 @@
-[submodule "software/signal_board/nuttx"]
-	path = software/signal_board/nuttx
-	url = https://bitbucket.org/nuttx/nuttx.git
-[submodule "hardware/signal_board/concept/stm32-kicad-lib"]
-	path = hardware/signal_board/concept/stm32-kicad-lib
-	url = https://github.com/esden/stm32-kicad-lib.git
+
