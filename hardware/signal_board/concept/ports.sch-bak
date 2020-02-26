@@ -1,0 +1,252 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 12 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_OTG J?
+U 1 1 5E567865
+P 1700 1900
+AR Path="/63DEFF92/5E567865" Ref="J?"  Part="1" 
+AR Path="/5E56622A/5E567865" Ref="J2"  Part="1" 
+F 0 "J2" H 1757 2367 50  0000 C CNN
+F 1 "USB_OTG" H 1757 2276 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_GCT_USB3076-30-A" H 1850 1850 50  0001 C CNN
+F 3 " ~" H 1850 1850 50  0001 C CNN
+	1    1700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5E56786B
+P 1700 2400
+AR Path="/63DEFF92/5E56786B" Ref="#PWR?"  Part="1" 
+AR Path="/5E56622A/5E56786B" Ref="#PWR085"  Part="1" 
+F 0 "#PWR085" H 1700 2150 50  0001 C CNN
+F 1 "GNDD" H 1704 2245 50  0000 C CNN
+F 2 "" H 1700 2400 50  0001 C CNN
+F 3 "" H 1700 2400 50  0001 C CNN
+	1    1700 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2300 1600 2350
+Wire Wire Line
+	1700 2350 1700 2300
+$Comp
+L Device:R R?
+U 1 1 5E567873
+P 1900 2350
+AR Path="/63DEFF92/5E567873" Ref="R?"  Part="1" 
+AR Path="/5E56622A/5E567873" Ref="R109"  Part="1" 
+F 0 "R109" V 1800 2350 50  0000 C CNN
+F 1 "1k" V 1900 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1830 2350 50  0001 C CNN
+F 3 "~" H 1900 2350 50  0001 C CNN
+	1    1900 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 2350 1700 2350
+Connection ~ 1700 2350
+Wire Wire Line
+	2050 2350 2100 2350
+Wire Wire Line
+	2100 2350 2100 2100
+Wire Wire Line
+	2100 2100 2000 2100
+Wire Wire Line
+	1600 2350 1700 2350
+Wire Wire Line
+	1700 2400 1700 2350
+Wire Wire Line
+	2000 2000 2800 2000
+Wire Wire Line
+	2000 1900 2800 1900
+Text Label 2800 2000 2    50   ~ 0
+STM32F103_USB_D-
+Text Label 2800 1900 2    50   ~ 0
+STM32F103_USB_D+
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E567884
+P 2050 1450
+AR Path="/63DEFF92/5E567884" Ref="J?"  Part="1" 
+AR Path="/5E56622A/5E567884" Ref="J3"  Part="1" 
+F 0 "J3" V 2014 1262 50  0000 R CNN
+F 1 "Conn_01x02" V 1923 1262 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2050 1450 50  0001 C CNN
+F 3 "~" H 2050 1450 50  0001 C CNN
+	1    2050 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 1700 2050 1700
+Wire Wire Line
+	2050 1700 2050 1650
+Wire Wire Line
+	2150 1650 2150 1700
+Wire Wire Line
+	2150 1700 2800 1700
+Text Label 2800 1700 2    50   ~ 0
+VCC5V
+Wire Wire Line
+	4350 2450 3550 2450
+Wire Wire Line
+	4350 2350 3550 2350
+Text Label 3550 2450 0    50   ~ 0
+STM32F103_USB_D-
+Text Label 3550 2350 0    50   ~ 0
+STM32F103_USB_D+
+Text HLabel 4350 2350 2    50   BiDi ~ 0
+STM32F103_USB_D+
+Text HLabel 4350 2450 2    50   BiDi ~ 0
+STM32F103_USB_D-
+Wire Wire Line
+	4350 2650 3550 2650
+Wire Wire Line
+	4350 2550 3550 2550
+Text Label 3550 2650 0    50   ~ 0
+STM32F103_SWCLK
+Text Label 3550 2550 0    50   ~ 0
+STM32F103_SWDIO
+Text HLabel 4350 2550 2    50   BiDi ~ 0
+STM32F103_SWDIO
+Text HLabel 4350 2650 2    50   BiDi ~ 0
+STM32F103_SWCLK
+Text Label 3550 1850 0    50   ~ 0
+VCC5V
+Wire Wire Line
+	3550 1850 4350 1850
+Text HLabel 4350 1850 2    50   Output ~ 0
+VCC5V
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5E57C3CD
+P 1550 3100
+F 0 "J1" H 1468 2675 50  0000 C CNN
+F 1 "Conn_01x04" H 1468 2766 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1550 3100 50  0001 C CNN
+F 3 "~" H 1550 3100 50  0001 C CNN
+	1    1550 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 3100 2550 3100
+Wire Wire Line
+	1750 3000 2550 3000
+Text Label 2550 3100 2    50   ~ 0
+STM32F103_SWCLK
+Text Label 2550 3000 2    50   ~ 0
+STM32F103_SWDIO
+Text Label 3550 1950 0    50   ~ 0
+VDD3.3V
+Wire Wire Line
+	3550 1950 4350 1950
+Text HLabel 4350 1950 2    50   Input ~ 0
+VDD3.3V
+Text Label 2550 2900 2    50   ~ 0
+VDD3.3V
+$Comp
+L power:GNDD #PWR?
+U 1 1 5E57E355
+P 1800 3250
+AR Path="/63DEFF92/5E57E355" Ref="#PWR?"  Part="1" 
+AR Path="/5E56622A/5E57E355" Ref="#PWR086"  Part="1" 
+F 0 "#PWR086" H 1800 3000 50  0001 C CNN
+F 1 "GNDD" H 1804 3095 50  0000 C CNN
+F 2 "" H 1800 3250 50  0001 C CNN
+F 3 "" H 1800 3250 50  0001 C CNN
+	1    1800 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2900 2550 2900
+Wire Wire Line
+	1800 3250 1800 3200
+Wire Wire Line
+	1800 3200 1750 3200
+$Comp
+L power:GNDD #PWR?
+U 1 1 5E58099C
+P 3850 2050
+AR Path="/63DEFF92/5E58099C" Ref="#PWR?"  Part="1" 
+AR Path="/5E56622A/5E58099C" Ref="#PWR087"  Part="1" 
+F 0 "#PWR087" H 3850 1800 50  0001 C CNN
+F 1 "GNDD" V 3850 1850 50  0000 C CNN
+F 2 "" H 3850 2050 50  0001 C CNN
+F 3 "" H 3850 2050 50  0001 C CNN
+	1    3850 2050
+	0    1    1    0   
+$EndComp
+Text HLabel 4350 2050 2    50   UnSpc ~ 0
+GNDD
+Wire Wire Line
+	3850 2050 4350 2050
+$Comp
+L Connector:Barrel_Jack_Switch J4
+U 1 1 5F341D99
+P 1700 3850
+F 0 "J4" H 1757 4167 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 1757 4076 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1750 3810 50  0001 C CNN
+F 3 "~" H 1750 3810 50  0001 C CNN
+	1    1700 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3850 2050 3850
+Wire Wire Line
+	2050 3850 2050 3950
+Wire Wire Line
+	2050 3950 2000 3950
+Wire Wire Line
+	2000 3750 2550 3750
+Text Label 2550 3750 2    50   ~ 0
+VCC12V
+$Comp
+L power:GNDPWR #PWR0101
+U 1 1 5F345610
+P 2050 4000
+F 0 "#PWR0101" H 2050 3800 50  0001 C CNN
+F 1 "GNDPWR" H 2054 3846 50  0000 C CNN
+F 2 "" H 2050 3950 50  0001 C CNN
+F 3 "" H 2050 3950 50  0001 C CNN
+	1    2050 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4000 2050 3950
+Connection ~ 2050 3950
+Text Label 3550 1750 0    50   ~ 0
+VCC12V
+Wire Wire Line
+	3550 1750 4350 1750
+Text HLabel 4350 1750 2    50   Output ~ 0
+VCC12V
+$Comp
+L power:GNDPWR #PWR0102
+U 1 1 5F349B76
+P 3950 2150
+F 0 "#PWR0102" H 3950 1950 50  0001 C CNN
+F 1 "GNDPWR" V 3954 2041 50  0000 R CNN
+F 2 "" H 3950 2100 50  0001 C CNN
+F 3 "" H 3950 2100 50  0001 C CNN
+	1    3950 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 2150 4350 2150
+Text HLabel 4350 2150 2    50   UnSpc ~ 0
+GNDPWR
+$EndSCHEMATC

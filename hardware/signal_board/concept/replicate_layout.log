@@ -1,0 +1,99 @@
+02-20 16:27:47 replicate_layout.action_replicate_layout 295:Replicate layout plugin version: 51 started
+02-20 16:27:47 replicate_layout.action_replicate_layout 327:Preparing replicator with U20 as a reference
+02-20 16:27:47 replicate_layout.replicatelayout 201:getting project hierarchy from schematics
+02-20 16:27:47 replicate_layout.replicatelayout 203:Project hierarchy looks like:
+{'63DEFF92': ['CoreSheet', '/home/user/Downloads/pfc_test_vzpp/core.sch'], '5E4AE7F8': ['Cell_0_Sheet', '/home/user/Downloads/pfc_test_vzpp/cell.sch'], '5E4C520A': ['PowerSheet', '/home/user/Downloads/pfc_test_vzpp/power.sch'], '5E8995F4': ['Cell_1_Sheet', '/home/user/Downloads/pfc_test_vzpp/cell.sch'], '5E9BE022': ['LedsSheet', '/home/user/Downloads/pfc_test_vzpp/leds.sch'], '5E4C7565': ['VFbCsSheet', '/home/user/Downloads/pfc_test_vzpp/v_fb_cs_supply.sch'], '5EBA5824': ['Dut_0_Sheet', '/home/user/Downloads/pfc_test_vzpp/dut.sch'], '5ECC1C1E': ['Dut_2_Sheet', '/home/user/Downloads/pfc_test_vzpp/dut.sch'], '5ECCA0B6': ['Dut_3_Sheet', '/home/user/Downloads/pfc_test_vzpp/dut.sch'], '5ECC1B4F': ['Dut_1_Sheet', '/home/user/Downloads/pfc_test_vzpp/dut.sch'], '5E56622A': ['PortsSheet', '/home/user/Downloads/pfc_test_vzpp/ports.sch']}
+02-20 16:27:47 replicate_layout.replicatelayout 211:getting a list of all footprints on board
+02-20 16:27:47 replicate_layout.action_replicate_layout 352:Pivot footprint is 'U20'
+Located on:['Dut_0_Sheet']
+With filenames:['dut.sch']
+With sheet_id:['Dut_0_Sheet']
+02-20 16:27:47 replicate_layout.action_replicate_layout 357:Corresponding footprints are 
+[('U20', ['Dut_0_Sheet']), ('U21', ['Dut_2_Sheet']), ('U22', ['Dut_3_Sheet']), ('U23', ['Dut_1_Sheet'])]
+02-20 16:27:47 replicate_layout.action_replicate_layout 370:Showing dialog
+02-20 16:27:47 replicate_layout.action_replicate_layout 374:Pcbnew position: wx.Point(0, 0)
+02-20 16:27:47 replicate_layout.action_replicate_layout 380:Display 0: wx.Rect(0, 0, 1920, 1080)
+02-20 16:27:47 replicate_layout.action_replicate_layout 384:Toolbar position: wx.Point(1629, 103)
+02-20 16:27:47 replicate_layout.action_replicate_layout 391:Dialog position: wx.Point(1316, 103)
+02-20 16:27:48 replicate_layout.replicatelayout 238:construcing a list of sheets suitable for replication on level:'Dut_0_Sheet', file:'dut.sch'
+02-20 16:27:48 replicate_layout.replicatelayout 245:Sheet ids up to the level:['Dut_0_Sheet']
+02-20 16:27:48 replicate_layout.replicatelayout 249:Footprints on the sheets:
+['U20', 'U21', 'U22', 'U23']
+02-20 16:27:48 replicate_layout.replicatelayout 252:Footprints raw sheet ids:
+['/5EBA5824/5EBA9ED5', '/5ECC1C1E/5EBA9ED5', '/5ECCA0B6/5EBA9ED5', '/5ECC1B4F/5EBA9ED5']
+02-20 16:27:48 replicate_layout.replicatelayout 268:All sheets to replicate:
+[['Dut_0_Sheet'], ['Dut_2_Sheet'], ['Dut_3_Sheet'], ['Dut_1_Sheet']]
+02-20 16:27:48 replicate_layout.replicatelayout 273:All sheets to replicate sorted:
+[['Dut_0_Sheet'], ['Dut_1_Sheet'], ['Dut_2_Sheet'], ['Dut_3_Sheet']]
+02-20 16:27:48 replicate_layout.replicatelayout 279:All sheets to replicate sorted and without pivot_sheet:
+[['Dut_1_Sheet'], ['Dut_2_Sheet'], ['Dut_3_Sheet']]
+02-20 16:27:51 replicate_layout.replicatelayout 238:construcing a list of sheets suitable for replication on level:'Dut_0_Sheet', file:'dut.sch'
+02-20 16:27:51 replicate_layout.replicatelayout 245:Sheet ids up to the level:['Dut_0_Sheet']
+02-20 16:27:51 replicate_layout.replicatelayout 249:Footprints on the sheets:
+['U20', 'U21', 'U22', 'U23']
+02-20 16:27:51 replicate_layout.replicatelayout 252:Footprints raw sheet ids:
+['/5EBA5824/5EBA9ED5', '/5ECC1C1E/5EBA9ED5', '/5ECCA0B6/5EBA9ED5', '/5ECC1B4F/5EBA9ED5']
+02-20 16:27:51 replicate_layout.replicatelayout 268:All sheets to replicate:
+[['Dut_0_Sheet'], ['Dut_2_Sheet'], ['Dut_3_Sheet'], ['Dut_1_Sheet']]
+02-20 16:27:51 replicate_layout.replicatelayout 273:All sheets to replicate sorted:
+[['Dut_0_Sheet'], ['Dut_1_Sheet'], ['Dut_2_Sheet'], ['Dut_3_Sheet']]
+02-20 16:27:51 replicate_layout.replicatelayout 279:All sheets to replicate sorted and without pivot_sheet:
+[['Dut_1_Sheet'], ['Dut_2_Sheet'], ['Dut_3_Sheet']]
+02-20 16:27:51 replicate_layout.action_replicate_layout 170:Replicating layout
+02-20 16:27:51 replicate_layout.replicatelayout 965:Starting replication of sheets: [['Dut_1_Sheet'], ['Dut_2_Sheet'], ['Dut_3_Sheet']]
+on level: ['Dut_0_Sheet']
+with tracks=True, zone=True, text=True, containing=False, remov=True
+02-20 16:27:51 root 250:updating GUI message: 'Preparing for replication'
+02-20 16:27:52 root 255:updating GUI with: 0
+02-20 16:27:52 replicate_layout.replicatelayout 542:Getting the list of pivot footprints
+02-20 16:27:52 root 255:updating GUI with: 0
+02-20 16:27:52 replicate_layout.replicatelayout 546:Getting the list of all the remaining footprints
+02-20 16:27:52 replicate_layout.replicatelayout 550:Getting nets local to pivot footprints
+02-20 16:27:52 replicate_layout.replicatelayout 554:Getting pivot bounding box
+02-20 16:27:52 root 255:updating GUI with: 37
+02-20 16:27:52 replicate_layout.replicatelayout 558:Getting pivot tracks
+02-20 16:27:52 replicate_layout.replicatelayout 562:Getting pivot zones
+02-20 16:27:52 root 255:updating GUI with: 62
+02-20 16:27:52 replicate_layout.replicatelayout 566:Getting pivot text items
+02-20 16:27:52 replicate_layout.replicatelayout 570:Getting pivot text items
+02-20 16:27:52 replicate_layout.replicatelayout 994:Removing tracks and zones, before module placement
+02-20 16:27:52 root 250:updating GUI message: 'Removing zones and tracks'
+02-20 16:27:52 root 255:updating GUI with: 33
+02-20 16:27:52 root 255:updating GUI with: 66
+02-20 16:27:52 root 250:updating GUI message: 'Replicating footprints'
+02-20 16:27:52 root 255:updating GUI with: 0
+02-20 16:27:52 replicate_layout.replicatelayout 576:Replicating footprints
+02-20 16:27:52 replicate_layout.replicatelayout 582:Replicating footprints on sheet ['Dut_1_Sheet']
+02-20 16:27:52 replicate_layout.replicatelayout 582:Replicating footprints on sheet ['Dut_2_Sheet']
+02-20 16:27:52 root 255:updating GUI with: 66
+02-20 16:27:52 replicate_layout.replicatelayout 582:Replicating footprints on sheet ['Dut_3_Sheet']
+02-20 16:27:52 replicate_layout.replicatelayout 1002:Removing tracks and zones, after module placement
+02-20 16:27:52 root 250:updating GUI message: 'Removing zones and tracks'
+02-20 16:27:52 root 255:updating GUI with: 33
+02-20 16:27:52 root 255:updating GUI with: 66
+02-20 16:27:52 root 250:updating GUI message: 'Replicating tracks'
+02-20 16:27:52 root 255:updating GUI with: 0
+02-20 16:27:52 replicate_layout.replicatelayout 696:Replicating tracks
+02-20 16:27:52 replicate_layout.replicatelayout 702:Replicating tracks on sheet ['Dut_1_Sheet']
+02-20 16:27:52 replicate_layout.replicatelayout 702:Replicating tracks on sheet ['Dut_2_Sheet']
+02-20 16:27:52 root 255:updating GUI with: 33
+02-20 16:27:52 replicate_layout.replicatelayout 702:Replicating tracks on sheet ['Dut_3_Sheet']
+02-20 16:27:52 root 250:updating GUI message: 'Replicating zones'
+02-20 16:27:52 replicate_layout.replicatelayout 747:Replicating zones
+02-20 16:27:52 root 255:updating GUI with: 0
+02-20 16:27:52 replicate_layout.replicatelayout 754:Replicating zones on sheet ['Dut_1_Sheet']
+02-20 16:27:52 replicate_layout.replicatelayout 754:Replicating zones on sheet ['Dut_2_Sheet']
+02-20 16:27:52 replicate_layout.replicatelayout 754:Replicating zones on sheet ['Dut_3_Sheet']
+02-20 16:27:52 root 250:updating GUI message: 'Replicating text'
+02-20 16:27:52 replicate_layout.replicatelayout 813:Replicating text
+02-20 16:27:52 replicate_layout.replicatelayout 820:Replicating text on sheet ['Dut_1_Sheet']
+02-20 16:27:52 replicate_layout.replicatelayout 820:Replicating text on sheet ['Dut_2_Sheet']
+02-20 16:27:52 replicate_layout.replicatelayout 820:Replicating text on sheet ['Dut_3_Sheet']
+02-20 16:27:52 root 250:updating GUI message: 'Replicating drawings'
+02-20 16:27:52 replicate_layout.replicatelayout 843:Replicating drawings
+02-20 16:27:52 root 255:updating GUI with: 0
+02-20 16:27:52 replicate_layout.replicatelayout 849:Replicating drawings on sheet ['Dut_1_Sheet']
+02-20 16:27:52 replicate_layout.replicatelayout 849:Replicating drawings on sheet ['Dut_2_Sheet']
+02-20 16:27:52 replicate_layout.replicatelayout 849:Replicating drawings on sheet ['Dut_3_Sheet']
+02-20 16:27:52 root 250:updating GUI message: 'Removing duplicates'
+02-20 16:27:55 replicate_layout.action_replicate_layout 190:Replication complete
