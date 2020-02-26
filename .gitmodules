@@ -1,0 +1,3 @@
+[submodule "software/signal_board/nuttx"]
+	path = software/signal_board/nuttx
+	url = https://bitbucket.org/nuttx/nuttx.git
