@@ -1,0 +1,779 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 11 51
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_OTG J?
+U 1 1 5E567865
+P 5500 3400
+AR Path="/63DEFF92/5E567865" Ref="J?"  Part="1" 
+AR Path="/5E56622A/5E567865" Ref="J2"  Part="1" 
+F 0 "J2" H 5557 3867 50  0000 C CNN
+F 1 "USB_OTG" H 5557 3776 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_GCT_USB3076-30-A" H 5650 3350 50  0001 C CNN
+F 3 " ~" H 5650 3350 50  0001 C CNN
+	1    5500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5E56786B
+P 5500 3900
+AR Path="/63DEFF92/5E56786B" Ref="#PWR?"  Part="1" 
+AR Path="/5E56622A/5E56786B" Ref="#PWR078"  Part="1" 
+F 0 "#PWR078" H 5500 3650 50  0001 C CNN
+F 1 "GNDD" H 5504 3745 50  0000 C CNN
+F 2 "" H 5500 3900 50  0001 C CNN
+F 3 "" H 5500 3900 50  0001 C CNN
+	1    5500 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3800 5400 3850
+Wire Wire Line
+	5500 3850 5500 3800
+$Comp
+L Device:R R?
+U 1 1 5E567873
+P 5700 3850
+AR Path="/63DEFF92/5E567873" Ref="R?"  Part="1" 
+AR Path="/5E56622A/5E567873" Ref="R108"  Part="1" 
+F 0 "R108" V 5600 3850 50  0000 C CNN
+F 1 "1k" V 5700 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5630 3850 50  0001 C CNN
+F 3 "~" H 5700 3850 50  0001 C CNN
+	1    5700 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 3850 5500 3850
+Connection ~ 5500 3850
+Wire Wire Line
+	5850 3850 5900 3850
+Wire Wire Line
+	5900 3850 5900 3600
+Wire Wire Line
+	5900 3600 5800 3600
+Wire Wire Line
+	5400 3850 5500 3850
+Wire Wire Line
+	5500 3900 5500 3850
+Wire Wire Line
+	5800 3500 6600 3500
+Wire Wire Line
+	5800 3400 6600 3400
+Text Label 6600 3500 2    50   ~ 0
+STM32F103_USB_D-
+Text Label 6600 3400 2    50   ~ 0
+STM32F103_USB_D+
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E567884
+P 5850 2950
+AR Path="/63DEFF92/5E567884" Ref="J?"  Part="1" 
+AR Path="/5E56622A/5E567884" Ref="J4"  Part="1" 
+F 0 "J4" V 5814 2762 50  0000 R CNN
+F 1 "Conn_01x02" V 5723 2762 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5850 2950 50  0001 C CNN
+F 3 "~" H 5850 2950 50  0001 C CNN
+	1    5850 2950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 3200 5850 3200
+Wire Wire Line
+	5850 3200 5850 3150
+Wire Wire Line
+	5950 3150 5950 3200
+Wire Wire Line
+	5950 3200 6600 3200
+Text Label 6600 3200 2    50   ~ 0
+VCC5V
+Wire Wire Line
+	9300 7800 8400 7800
+Wire Wire Line
+	9300 7700 8400 7700
+Text Label 8400 7800 0    50   ~ 0
+STM32F103_USB_D-
+Text Label 8400 7700 0    50   ~ 0
+STM32F103_USB_D+
+Text HLabel 9300 7700 2    50   BiDi ~ 0
+STM32F103_USB_D+
+Text HLabel 9300 7800 2    50   BiDi ~ 0
+STM32F103_USB_D-
+Wire Wire Line
+	9300 8000 8400 8000
+Wire Wire Line
+	9300 7900 8400 7900
+Text Label 8400 8000 0    50   ~ 0
+STM32F103_SWCLK
+Text Label 8400 7900 0    50   ~ 0
+STM32F103_SWDIO
+Text HLabel 9300 7900 2    50   BiDi ~ 0
+STM32F103_SWDIO
+Text HLabel 9300 8000 2    50   BiDi ~ 0
+STM32F103_SWCLK
+Text Label 8400 7150 0    50   ~ 0
+VCC5V
+Wire Wire Line
+	8400 7150 9300 7150
+Text HLabel 9300 7150 2    50   Output ~ 0
+VCC5V
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5E57C3CD
+P 5350 4600
+F 0 "J1" H 5268 4175 50  0000 C CNN
+F 1 "Conn_01x04" H 5268 4266 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5350 4600 50  0001 C CNN
+F 3 "~" H 5350 4600 50  0001 C CNN
+	1    5350 4600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5550 4600 6350 4600
+Wire Wire Line
+	5550 4500 6350 4500
+Text Label 6350 4600 2    50   ~ 0
+STM32F103_SWCLK
+Text Label 6350 4500 2    50   ~ 0
+STM32F103_SWDIO
+Text Label 8400 7250 0    50   ~ 0
+VDD3.3V
+Wire Wire Line
+	8400 7250 9300 7250
+Text HLabel 9300 7250 2    50   Input ~ 0
+VDD3.3V
+Text Label 6350 4400 2    50   ~ 0
+VDD3.3V
+$Comp
+L power:GNDD #PWR?
+U 1 1 5E57E355
+P 5600 4750
+AR Path="/63DEFF92/5E57E355" Ref="#PWR?"  Part="1" 
+AR Path="/5E56622A/5E57E355" Ref="#PWR079"  Part="1" 
+F 0 "#PWR079" H 5600 4500 50  0001 C CNN
+F 1 "GNDD" H 5604 4595 50  0000 C CNN
+F 2 "" H 5600 4750 50  0001 C CNN
+F 3 "" H 5600 4750 50  0001 C CNN
+	1    5600 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4400 6350 4400
+Wire Wire Line
+	5600 4750 5600 4700
+Wire Wire Line
+	5600 4700 5550 4700
+$Comp
+L power:GNDD #PWR?
+U 1 1 5E58099C
+P 8700 7350
+AR Path="/63DEFF92/5E58099C" Ref="#PWR?"  Part="1" 
+AR Path="/5E56622A/5E58099C" Ref="#PWR081"  Part="1" 
+F 0 "#PWR081" H 8700 7100 50  0001 C CNN
+F 1 "GNDD" V 8700 7150 50  0000 C CNN
+F 2 "" H 8700 7350 50  0001 C CNN
+F 3 "" H 8700 7350 50  0001 C CNN
+	1    8700 7350
+	0    1    1    0   
+$EndComp
+Text HLabel 9300 7350 2    50   UnSpc ~ 0
+GNDD
+Wire Wire Line
+	8700 7350 9300 7350
+$Comp
+L Connector:Barrel_Jack_Switch J3
+U 1 1 5F341D99
+P 5500 5350
+F 0 "J3" H 5557 5667 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 5557 5576 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 5550 5310 50  0001 C CNN
+F 3 "~" H 5550 5310 50  0001 C CNN
+	1    5500 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 5350 5850 5350
+Wire Wire Line
+	5850 5350 5850 5450
+Wire Wire Line
+	5850 5450 5800 5450
+Wire Wire Line
+	5800 5250 6350 5250
+Text Label 6350 5250 2    50   ~ 0
+VCC12V
+$Comp
+L power:GNDPWR #PWR080
+U 1 1 5F345610
+P 5850 5500
+F 0 "#PWR080" H 5850 5300 50  0001 C CNN
+F 1 "GNDPWR" H 5854 5346 50  0000 C CNN
+F 2 "" H 5850 5450 50  0001 C CNN
+F 3 "" H 5850 5450 50  0001 C CNN
+	1    5850 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 5500 5850 5450
+Connection ~ 5850 5450
+Text Label 8400 7050 0    50   ~ 0
+VCC12V
+Wire Wire Line
+	8400 7050 9300 7050
+Text HLabel 9300 7050 2    50   Output ~ 0
+VCC12V
+$Comp
+L power:GNDPWR #PWR082
+U 1 1 5F349B76
+P 8800 7450
+F 0 "#PWR082" H 8800 7250 50  0001 C CNN
+F 1 "GNDPWR" V 8804 7341 50  0000 R CNN
+F 2 "" H 8800 7400 50  0001 C CNN
+F 3 "" H 8800 7400 50  0001 C CNN
+	1    8800 7450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8800 7450 9300 7450
+Text HLabel 9300 7450 2    50   UnSpc ~ 0
+GNDPWR
+Text Label 8400 8200 0    50   ~ 0
+PFC_DUT_FB_OVP
+Text Label 8400 8300 0    50   ~ 0
+PFC_VCC_DUT_[0..29]
+Wire Bus Line
+	8400 8300 9300 8300
+Wire Wire Line
+	8400 8200 9300 8200
+Wire Bus Line
+	8400 8400 9300 8400
+Text Label 8400 8400 0    50   ~ 0
+PFC_GATE_HIGH_[0..29]
+Text HLabel 9300 8200 2    50   Input ~ 0
+PFC_DUT_FB_OVP
+Text HLabel 9300 8300 2    50   Input ~ 0
+PFC_VCC_DUT_[0..29]
+Text HLabel 9300 8400 2    50   Input ~ 0
+PFC_GATE_HIGH_[0..29]
+$Comp
+L panel_pin:panel_pin J5
+U 1 1 5E5DBB59
+P 8900 4400
+F 0 "J5" H 9400 6250 50  0000 C CNN
+F 1 "panel_pin" H 8875 6440 50  0001 C CNN
+F 2 "panel_pin:panel_pin_small" H 8400 6150 50  0001 C CNN
+F 3 "" H 8400 6150 50  0001 C CNN
+	1    8900 4400
+	1    0    0    -1  
+$EndComp
+Text Label 7400 2700 0    50   ~ 0
+PFC_VCC_DUT_0
+Text Label 7400 2900 0    50   ~ 0
+PFC_VCC_DUT_1
+Text Label 7400 3100 0    50   ~ 0
+PFC_VCC_DUT_2
+Text Label 7400 3300 0    50   ~ 0
+PFC_VCC_DUT_3
+Text Label 7400 3500 0    50   ~ 0
+PFC_VCC_DUT_4
+Text Label 7400 3700 0    50   ~ 0
+PFC_VCC_DUT_5
+Text Label 7400 3900 0    50   ~ 0
+PFC_VCC_DUT_6
+Text Label 7400 4100 0    50   ~ 0
+PFC_VCC_DUT_7
+Text Label 7400 4300 0    50   ~ 0
+PFC_VCC_DUT_8
+Text Label 7400 4500 0    50   ~ 0
+PFC_VCC_DUT_9
+Text Label 7400 4700 0    50   ~ 0
+PFC_VCC_DUT_10
+Text Label 7400 4900 0    50   ~ 0
+PFC_VCC_DUT_11
+Text Label 7400 5100 0    50   ~ 0
+PFC_VCC_DUT_12
+Text Label 7400 5300 0    50   ~ 0
+PFC_VCC_DUT_13
+Text Label 7400 5500 0    50   ~ 0
+PFC_VCC_DUT_14
+Text Label 7400 5700 0    50   ~ 0
+PFC_VCC_DUT_15
+Text Label 7400 5900 0    50   ~ 0
+PFC_VCC_DUT_16
+Text Label 7400 6100 0    50   ~ 0
+PFC_VCC_DUT_17
+Text Label 10350 6100 2    50   ~ 0
+PFC_VCC_DUT_18
+Text Label 10350 5900 2    50   ~ 0
+PFC_VCC_DUT_19
+Text Label 10350 5700 2    50   ~ 0
+PFC_VCC_DUT_20
+Text Label 10350 5500 2    50   ~ 0
+PFC_VCC_DUT_21
+Text Label 10350 5300 2    50   ~ 0
+PFC_VCC_DUT_22
+Text Label 10350 5100 2    50   ~ 0
+PFC_VCC_DUT_23
+Text Label 10350 4900 2    50   ~ 0
+PFC_VCC_DUT_24
+Text Label 10350 4700 2    50   ~ 0
+PFC_VCC_DUT_25
+Text Label 10350 4500 2    50   ~ 0
+PFC_VCC_DUT_26
+Text Label 10350 4300 2    50   ~ 0
+PFC_VCC_DUT_27
+Text Label 10350 4100 2    50   ~ 0
+PFC_VCC_DUT_28
+Text Label 10350 3900 2    50   ~ 0
+PFC_VCC_DUT_29
+Wire Wire Line
+	8150 2700 7400 2700
+Wire Wire Line
+	8150 2900 7400 2900
+Wire Wire Line
+	8150 3100 7400 3100
+Wire Wire Line
+	8150 3300 7400 3300
+Wire Wire Line
+	8150 3500 7400 3500
+Wire Wire Line
+	8150 3700 7400 3700
+Wire Wire Line
+	8150 3900 7400 3900
+Wire Wire Line
+	8150 4100 7400 4100
+Wire Wire Line
+	8150 4300 7400 4300
+Wire Wire Line
+	8150 4500 7400 4500
+Wire Wire Line
+	8150 4700 7400 4700
+Wire Wire Line
+	8150 4900 7400 4900
+Wire Wire Line
+	8150 5100 7400 5100
+Wire Wire Line
+	8150 5300 7400 5300
+Wire Wire Line
+	8150 5500 7400 5500
+Wire Wire Line
+	8150 5700 7400 5700
+Wire Wire Line
+	10300 3500 9600 3500
+Wire Wire Line
+	10300 3600 9600 3600
+Wire Wire Line
+	10300 3700 9600 3700
+Wire Wire Line
+	10300 3800 9600 3800
+Wire Wire Line
+	9600 2700 10300 2700
+Wire Wire Line
+	9600 2800 10300 2800
+Wire Wire Line
+	9600 2900 10300 2900
+Wire Wire Line
+	9600 3000 10300 3000
+Wire Wire Line
+	9600 3100 10300 3100
+Wire Wire Line
+	9600 3200 10300 3200
+Wire Wire Line
+	9600 3300 10300 3300
+Wire Wire Line
+	9600 3400 10300 3400
+Wire Wire Line
+	9600 3900 10350 3900
+Wire Wire Line
+	9600 4100 10350 4100
+Wire Wire Line
+	9600 4300 10350 4300
+Wire Wire Line
+	9600 4500 10350 4500
+Wire Wire Line
+	9600 4700 10350 4700
+Wire Wire Line
+	9600 4900 10350 4900
+Wire Wire Line
+	9600 5100 10350 5100
+Wire Wire Line
+	9600 5300 10350 5300
+Wire Wire Line
+	9600 5500 10350 5500
+Wire Wire Line
+	9600 5700 10350 5700
+Wire Wire Line
+	9600 5900 10350 5900
+Wire Wire Line
+	9600 6100 10350 6100
+Wire Wire Line
+	8150 6100 7400 6100
+Wire Wire Line
+	8150 5900 7400 5900
+Entry Wire Line
+	10350 3900 10450 4000
+Entry Wire Line
+	10350 4100 10450 4200
+Entry Wire Line
+	10350 4300 10450 4400
+Entry Wire Line
+	10350 4500 10450 4600
+Entry Wire Line
+	10350 4700 10450 4800
+Entry Wire Line
+	10350 4900 10450 5000
+Entry Wire Line
+	10350 5100 10450 5200
+Entry Wire Line
+	10350 5300 10450 5400
+Entry Wire Line
+	10350 5500 10450 5600
+Entry Wire Line
+	10350 5700 10450 5800
+Entry Wire Line
+	10350 5900 10450 6000
+Entry Wire Line
+	10350 6100 10450 6200
+Entry Wire Line
+	7400 6100 7300 6200
+Entry Wire Line
+	7400 5900 7300 6000
+Entry Wire Line
+	7400 2700 7300 2800
+Entry Wire Line
+	7400 2900 7300 3000
+Entry Wire Line
+	7400 3100 7300 3200
+Entry Wire Line
+	7400 3300 7300 3400
+Entry Wire Line
+	7400 3500 7300 3600
+Entry Wire Line
+	7400 3700 7300 3800
+Entry Wire Line
+	7400 3900 7300 4000
+Entry Wire Line
+	7400 4100 7300 4200
+Entry Wire Line
+	7400 4300 7300 4400
+Entry Wire Line
+	7400 4500 7300 4600
+Entry Wire Line
+	7400 4700 7300 4800
+Entry Wire Line
+	7400 4900 7300 5000
+Entry Wire Line
+	7400 5100 7300 5200
+Entry Wire Line
+	7400 5300 7300 5400
+Entry Wire Line
+	7400 5500 7300 5600
+Entry Wire Line
+	7400 5700 7300 5800
+Wire Bus Line
+	7300 6550 10450 6550
+Text Label 6150 6550 0    50   ~ 0
+PFC_VCC_DUT_[0..29]
+Wire Bus Line
+	6150 6550 7300 6550
+Connection ~ 7300 6550
+Text Label 7400 2800 0    50   ~ 0
+PFC_GATE_HIGH_0
+Text Label 7400 3000 0    50   ~ 0
+PFC_GATE_HIGH_1
+Text Label 7400 3200 0    50   ~ 0
+PFC_GATE_HIGH_2
+Text Label 7400 3400 0    50   ~ 0
+PFC_GATE_HIGH_3
+Text Label 7400 3600 0    50   ~ 0
+PFC_GATE_HIGH_4
+Text Label 7400 3800 0    50   ~ 0
+PFC_GATE_HIGH_5
+Text Label 7400 4000 0    50   ~ 0
+PFC_GATE_HIGH_6
+Text Label 7400 4200 0    50   ~ 0
+PFC_GATE_HIGH_7
+Text Label 7400 4400 0    50   ~ 0
+PFC_GATE_HIGH_8
+Text Label 7400 4600 0    50   ~ 0
+PFC_GATE_HIGH_9
+Text Label 7400 4800 0    50   ~ 0
+PFC_GATE_HIGH_10
+Text Label 7400 5000 0    50   ~ 0
+PFC_GATE_HIGH_11
+Text Label 7400 5200 0    50   ~ 0
+PFC_GATE_HIGH_12
+Text Label 7400 5400 0    50   ~ 0
+PFC_GATE_HIGH_13
+Text Label 7400 5600 0    50   ~ 0
+PFC_GATE_HIGH_14
+Text Label 7400 5800 0    50   ~ 0
+PFC_GATE_HIGH_15
+Text Label 7400 6000 0    50   ~ 0
+PFC_GATE_HIGH_16
+Text Label 7400 6200 0    50   ~ 0
+PFC_GATE_HIGH_17
+Text Label 10350 6200 2    50   ~ 0
+PFC_GATE_HIGH_18
+Text Label 10350 6000 2    50   ~ 0
+PFC_GATE_HIGH_19
+Text Label 10350 5800 2    50   ~ 0
+PFC_GATE_HIGH_20
+Text Label 10350 5600 2    50   ~ 0
+PFC_GATE_HIGH_21
+Text Label 10350 5400 2    50   ~ 0
+PFC_GATE_HIGH_22
+Text Label 10350 5200 2    50   ~ 0
+PFC_GATE_HIGH_23
+Text Label 10350 5000 2    50   ~ 0
+PFC_GATE_HIGH_24
+Text Label 10350 4800 2    50   ~ 0
+PFC_GATE_HIGH_25
+Text Label 10350 4600 2    50   ~ 0
+PFC_GATE_HIGH_26
+Text Label 10350 4400 2    50   ~ 0
+PFC_GATE_HIGH_27
+Text Label 10350 4200 2    50   ~ 0
+PFC_GATE_HIGH_28
+Text Label 10350 4000 2    50   ~ 0
+PFC_GATE_HIGH_29
+Entry Wire Line
+	7200 2800 7100 2900
+Entry Wire Line
+	7200 3000 7100 3100
+Entry Wire Line
+	7200 3200 7100 3300
+Entry Wire Line
+	7200 3400 7100 3500
+Entry Wire Line
+	7200 3600 7100 3700
+Entry Wire Line
+	7200 3800 7100 3900
+Entry Wire Line
+	7200 4000 7100 4100
+Entry Wire Line
+	7200 4200 7100 4300
+Entry Wire Line
+	7200 4400 7100 4500
+Entry Wire Line
+	7200 4600 7100 4700
+Entry Wire Line
+	7200 4800 7100 4900
+Entry Wire Line
+	7200 5000 7100 5100
+Entry Wire Line
+	7200 5200 7100 5300
+Entry Wire Line
+	7200 5400 7100 5500
+Entry Wire Line
+	7200 5600 7100 5700
+Entry Wire Line
+	7200 5800 7100 5900
+Entry Wire Line
+	7200 6000 7100 6100
+Entry Wire Line
+	7200 6200 7100 6300
+Entry Wire Line
+	10650 6300 10550 6200
+Entry Wire Line
+	10650 6100 10550 6000
+Entry Wire Line
+	10650 5900 10550 5800
+Entry Wire Line
+	10650 5700 10550 5600
+Entry Wire Line
+	10650 5500 10550 5400
+Entry Wire Line
+	10650 5300 10550 5200
+Entry Wire Line
+	10650 5100 10550 5000
+Entry Wire Line
+	10650 4900 10550 4800
+Entry Wire Line
+	10650 4700 10550 4600
+Entry Wire Line
+	10650 4500 10550 4400
+Entry Wire Line
+	10650 4300 10550 4200
+Entry Wire Line
+	10650 4100 10550 4000
+Wire Bus Line
+	10650 6650 7100 6650
+Wire Bus Line
+	7100 6650 6150 6650
+Connection ~ 7100 6650
+Text Label 6150 6650 0    50   ~ 0
+PFC_GATE_HIGH_[0..29]
+Wire Wire Line
+	10300 3300 10300 3400
+Connection ~ 10300 3400
+Wire Wire Line
+	10300 3400 10300 3500
+Connection ~ 10300 3500
+Wire Wire Line
+	10300 3500 10300 3600
+Connection ~ 10300 3600
+Wire Wire Line
+	10300 3600 10300 3700
+Connection ~ 10300 3700
+Wire Wire Line
+	10300 3700 10300 3800
+Wire Wire Line
+	10300 3200 10300 3100
+Connection ~ 10300 2800
+Wire Wire Line
+	10300 2800 10300 2700
+Connection ~ 10300 2900
+Wire Wire Line
+	10300 2900 10300 2800
+Connection ~ 10300 3000
+Wire Wire Line
+	10300 3000 10300 2950
+Connection ~ 10300 3100
+Wire Wire Line
+	10300 3100 10300 3000
+$Comp
+L power:GNDPWR #PWR0103
+U 1 1 5E83FD05
+P 10350 2950
+F 0 "#PWR0103" H 10350 2750 50  0001 C CNN
+F 1 "GNDPWR" V 10350 2700 50  0000 C CNN
+F 2 "" H 10350 2900 50  0001 C CNN
+F 3 "" H 10350 2900 50  0001 C CNN
+	1    10350 2950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10350 2950 10300 2950
+Connection ~ 10300 2950
+Wire Wire Line
+	10300 2950 10300 2900
+Text Label 10300 3300 2    50   ~ 0
+VCC12V
+Wire Wire Line
+	8900 2450 8900 2400
+Wire Wire Line
+	8900 2400 9000 2400
+Wire Wire Line
+	9000 2400 9000 2450
+Wire Wire Line
+	9000 2400 10300 2400
+Wire Wire Line
+	10300 2400 10300 2700
+Connection ~ 9000 2400
+Connection ~ 10300 2700
+Wire Wire Line
+	8900 6450 8900 6500
+Wire Wire Line
+	8900 6500 8950 6500
+Wire Wire Line
+	9000 6500 9000 6450
+$Comp
+L power:GNDPWR #PWR0104
+U 1 1 5E86796F
+P 8950 6700
+F 0 "#PWR0104" H 8950 6500 50  0001 C CNN
+F 1 "GNDPWR" H 8954 6546 50  0000 C CNN
+F 2 "" H 8950 6650 50  0001 C CNN
+F 3 "" H 8950 6650 50  0001 C CNN
+	1    8950 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 6700 8950 6500
+Connection ~ 8950 6500
+Wire Wire Line
+	8950 6500 9000 6500
+Wire Wire Line
+	8800 6450 8800 6500
+Wire Wire Line
+	8800 6500 8300 6500
+Text Label 8300 6500 0    50   ~ 0
+VCC12V
+Text Label 8400 2400 0    50   ~ 0
+VCC12V
+Wire Wire Line
+	8400 2400 8800 2400
+Wire Wire Line
+	8800 2400 8800 2450
+Wire Wire Line
+	7200 5800 8150 5800
+Wire Wire Line
+	7200 5600 8150 5600
+Wire Wire Line
+	7200 5400 8150 5400
+Wire Wire Line
+	7200 5200 8150 5200
+Wire Wire Line
+	7200 5000 8150 5000
+Wire Wire Line
+	7200 4800 8150 4800
+Wire Wire Line
+	7200 4600 8150 4600
+Wire Wire Line
+	7200 4400 8150 4400
+Wire Wire Line
+	7200 4200 8150 4200
+Wire Wire Line
+	7200 4000 8150 4000
+Wire Wire Line
+	7200 3800 8150 3800
+Wire Wire Line
+	7200 3600 8150 3600
+Wire Wire Line
+	7200 3400 8150 3400
+Wire Wire Line
+	7200 3200 8150 3200
+Wire Wire Line
+	7200 3000 8150 3000
+Wire Wire Line
+	7200 2800 8150 2800
+Wire Wire Line
+	7200 6000 8150 6000
+Wire Wire Line
+	7200 6200 8150 6200
+Wire Wire Line
+	9600 6200 10550 6200
+Wire Wire Line
+	9600 6000 10550 6000
+Wire Wire Line
+	9600 5800 10550 5800
+Wire Wire Line
+	9600 5600 10550 5600
+Wire Wire Line
+	9600 5400 10550 5400
+Wire Wire Line
+	9600 5200 10550 5200
+Wire Wire Line
+	9600 5000 10550 5000
+Wire Wire Line
+	9600 4800 10550 4800
+Wire Wire Line
+	9600 4600 10550 4600
+Wire Wire Line
+	9600 4400 10550 4400
+Wire Wire Line
+	9600 4200 10550 4200
+Wire Wire Line
+	9600 4000 10550 4000
+Wire Bus Line
+	10450 4000 10450 6550
+Wire Bus Line
+	10650 4100 10650 6650
+Wire Bus Line
+	7300 2800 7300 6550
+Wire Bus Line
+	7100 2900 7100 6650
+$EndSCHEMATC

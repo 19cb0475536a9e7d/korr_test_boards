@@ -1,0 +1,6 @@
+spartan 6 overview - https://www.digikey.com/en/datasheets/xilinx-inc-ds160
+xc6slx9 pinout - https://www.xilinx.com/support/documentation/user_guides/ug385.pdf
+xc6slx9 clocking - https://www.xilinx.com/support/documentation/user_guides/ug382.pdf
+xc6slx9 block ram - https://www.xilinx.com/support/documentation/user_guides/ug383.pdf
+xc6slx9 configuration guide - https://www.xilinx.com/support/documentation/user_guides/ug380.pdf
+xc6slx9 dc/switching characteristics - https://www.xilinx.com/support/documentation/data_sheets/ds162.pdf

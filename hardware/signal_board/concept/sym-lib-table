@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name stm32)(type Legacy)(uri /home/user/Downloads/pfc_test_vzpp/stm32-kicad-lib/stm32.lib)(options "")(descr ""))
   (lib (name LM3488MM)(type Legacy)(uri ${KIPRJMOD}/LM3488MM.lib)(options "")(descr ""))
   (lib (name top-rescue)(type Legacy)(uri ${KIPRJMOD}/top-rescue.lib)(options "")(descr ""))
+  (lib (name stm32)(type Legacy)(uri ${KIPRJMOD}/stm32.lib)(options "")(descr ""))
 )
