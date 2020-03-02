@@ -1,0 +1,6 @@
+-I/home/user/Projects/korr_test_boards/software/signal_board/nuttx/include
+-I/home/user/Projects/korr_test_boards/software/signal_board/port/include
+-I/home/user/Projects/korr_test_boards/software/signal_board/nuttx/arch/arm/include/stm32
+-I/home/user/Projects/korr_test_boards/software/signal_board/nuttx/arch/arm/src/common
+-I/home/user/Projects/korr_test_boards/software/signal_board/nuttx/arch/arm/src/stm32
+-I/home/user/Projects/korr_test_boards/software/signal_board/nuttx/arch/arm/src/stm32/hardware

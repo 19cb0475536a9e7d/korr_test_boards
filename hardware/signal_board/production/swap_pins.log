@@ -1,0 +1,242 @@
+02-29 19:23:47 swap_pins.action_swap_pins 81:Swap pins plugin version: 12 started
+02-29 19:23:47 swap_pins.swap_pins 49:Starting swap_pins
+02-29 19:23:47 swap_pins.swap_pins 56:main sch file is: /home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch
+02-29 19:23:47 swap_pins.swap_pins 57:main pcb file is: /home/user/Projects/korr_test_boards/hardware/signal_board/production/top.kicad_pcb
+02-29 19:23:47 swap_pins.swap_pins 58:sch cache file is: /home/user/Projects/korr_test_boards/hardware/signal_board/production/top-cache.lib
+02-29 19:23:47 swap_pins.swap_pins 71:Swaping pins: 40, 95 on: U21 on nets: PFC_GATE_LOW_2, PFC_GATE_LOW_17
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch, line: 19
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/power.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch, line: 43
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch, line: 19
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/leds.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch, line: 81
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/v_fb_cs_supply.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch, line: 90
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/ports.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch, line: 302
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/core.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch, line: 406
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch, line: 19
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch, line: 19
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch, line: 19
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch, line: 19
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch, line: 19
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch, line: 19
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch, line: 19
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch, line: 19
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch, line: 19
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch, line: 19
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch, line: 19
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch, line: 19
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch, line: 19
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 462:found subsheet:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+ in:
+	/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch, line: 709
+02-29 19:23:47 swap_pins.swap_pins 79:All schematics files are:
+/home/user/Projects/korr_test_boards/hardware/signal_board/production/core.sch
+/home/user/Projects/korr_test_boards/hardware/signal_board/production/v_fb_cs_supply.sch
+/home/user/Projects/korr_test_boards/hardware/signal_board/production/leds.sch
+/home/user/Projects/korr_test_boards/hardware/signal_board/production/top.sch
+/home/user/Projects/korr_test_boards/hardware/signal_board/production/current_source.sch
+/home/user/Projects/korr_test_boards/hardware/signal_board/production/cell.sch
+/home/user/Projects/korr_test_boards/hardware/signal_board/production/power.sch
+/home/user/Projects/korr_test_boards/hardware/signal_board/production/ports.sch
+02-29 19:23:47 swap_pins.swap_pins 119:FPGA_Xilinx_Spartan6:XC6SLX9-TQG144 unit: 1 present on page: /home/user/Projects/korr_test_boards/hardware/signal_board/production/core.sch
+02-29 19:23:47 swap_pins.swap_pins 119:FPGA_Xilinx_Spartan6:XC6SLX9-TQG144 unit: 4 present on page: /home/user/Projects/korr_test_boards/hardware/signal_board/production/core.sch
+02-29 19:23:47 swap_pins.swap_pins 119:FPGA_Xilinx_Spartan6:XC6SLX9-TQG144 unit: 3 present on page: /home/user/Projects/korr_test_boards/hardware/signal_board/production/core.sch
+02-29 19:23:47 swap_pins.swap_pins 119:FPGA_Xilinx_Spartan6:XC6SLX9-TQG144 unit: 2 present on page: /home/user/Projects/korr_test_boards/hardware/signal_board/production/core.sch
+02-29 19:23:47 swap_pins.swap_pins 128:Looking for: FPGA_Xilinx_Spartan6:XC6SLX9-TQG144 in cache.lib
+02-29 19:23:47 swap_pins.swap_pins 151:Found symbol in cache library
+02-29 19:23:47 swap_pins.swap_pins 167:Symbol has 4 units
+02-29 19:23:47 swap_pins.swap_pins 184:Relevant pins are: name: IO_L64N_D9_2, number: 40; name: IO_L40P_GCLK11_1, number: 95
+02-29 19:23:47 swap_pins.swap_pins 197:Relevant pins are on units: 2, 1
+02-29 19:23:47 swap_pins.swap_pins 205:Unit 1 on page: /home/user/Projects/korr_test_boards/hardware/signal_board/production/core.sch at: 11250, 12250
+02-29 19:23:47 swap_pins.swap_pins 207:Unit 2 on page: /home/user/Projects/korr_test_boards/hardware/signal_board/production/core.sch at: 4750, 12250
+02-29 19:23:47 swap_pins.swap_pins 214:Pin 1 at: 9250, 13650
+02-29 19:23:47 swap_pins.swap_pins 215:Pin 2 at: 6750, 12150
+02-29 19:23:47 swap_pins.swap_pins 237:Pin 1 rotation: 0
+02-29 19:23:47 swap_pins.swap_pins 238:Pin 2 rotation: 2
+02-29 19:23:47 swap_pins.swap_pins 265:list_line_1=[]
+02-29 19:23:47 swap_pins.swap_pins 297:list_line_2=[]
+02-29 19:23:47 swap_pins.swap_pins 308:Could not find the pins connection. 
+Either the pins are disconnected or they are connected through short wire segment
+and net name was overriden by some other label.
+02-29 19:23:49 swap_pins.action_swap_pins 136:Gracefully handled error while running
+Traceback (most recent call last):
+  File "/home/user/.kicad_plugins/swap_pins/action_swap_pins.py", line 128, in Run
+    swap_pins.swap(board, pad1, pad2)
+  File "/home/user/.kicad_plugins/swap_pins/swap_pins.py", line 309, in swap
+    raise ValueError("It makes no sense in swapping two disconneted pins!")
+ValueError: It makes no sense in swapping two disconneted pins!
